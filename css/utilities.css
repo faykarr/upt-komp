@@ -1,0 +1,250 @@
+:root {
+  --fs-xxsmall: 0.875rem;
+  --fs-xsmall: 1rem;
+  --fs-small: 1.125rem;
+  --fs-medium: 1.5rem;
+  --fs-large: 2rem;
+  --fs-xlarge: 5rem;
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: rgba(4, 10, 24, 25%);
+  --bg-gradient: linear-gradient(98.48deg, #0f172a 0%, #0c1534 100%);
+  --blue-light-color: #2e69c2;
+  --white-color: #ffffff;
+  --font-primary-color: #0f172a;
+  --font-secondary-color: #1e293b;
+  --font-tertiary-color: #94a3b8;
+}
+
+
+/* Custom Utilities CSS Desktop First */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: var(--fs-xsmall);
+  font-family: "Poppins", "Inter UI", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background: var(--bg-secondary);
+  color: var(--white-color);
+}
+
+.fs-xxsmall {
+  font-size: var(--fs-xxsmall);
+}
+
+.fs-xsmall {
+  font-size: var(--fs-xsmall);
+}
+
+.fs-small {
+  font-size: var(--fs-small);
+}
+
+.fs-medium {
+  font-size: var(--fs-medium);
+}
+
+.fs-large {
+  font-size: var(--fs-large);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-white {
+  color: var(--white-color);
+}
+
+.text-blue {
+  color: var(--blue-light-color);
+}
+
+.text-primary {
+  color: var(--font-primary-color);
+}
+
+.text-secondary {
+  color: var(--font-secondary-color);
+}
+
+.text-tertiary {
+  color: var(--font-tertiary-color);
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.text-semi-bold {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-extra-bold {
+  font-weight: 800;
+}
+
+.bg-primary {
+  background: var(--bg-primary);
+}
+
+.bg-secondary {
+  background: var(--bg-secondary);
+}
+
+.bg-tertiary {
+  background: var(--bg-tertiary);
+}
+
+.bg-gradient {
+  background: var(--bg-gradient);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-template-columns {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid-template-rows {
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid-auto-columns {
+  grid-auto-columns: minmax(200px, 1fr);
+}
+
+.grid-auto-rows {
+  grid-auto-rows: minmax(200px, 1fr);
+}
+
+.grid-auto-flow {
+  grid-auto-flow: dense;
+}
+
+.grid-column-start {
+  grid-column-start: 1;
+}
+
+.grid-column-end {
+  grid-column-end: -1;
+}
+
+.gap-xsmall {
+  gap: var(--fs-xsmall);
+}
+
+.gap-small {
+  gap: var(--fs-small);
+}
+
+.gap-medium {
+  gap: var(--fs-medium);
+}
+
+.gap-large {
+  gap: var(--fs-large);
+}
+
+.gap-xlarge {
+  gap: var(--fs-xlarge);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.static {
+  position: static;
+}
