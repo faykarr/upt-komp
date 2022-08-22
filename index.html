@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
     <!-- Start Header Section -->
     <header>
@@ -34,21 +35,21 @@
                 <!-- Menu List -->
                 <ul class="flex justify-between align-center gap-medium menu-list">
                     <li class="flex justify-center align-center">
-                        <a href="#" class="fs-xsmall text-bold text-white">Home</a>
+                        <a href="#hero-section" class="fs-xsmall text-bold text-white">Home</a>
                     </li>
                     <li class="flex justify-center align-center">
-                        <a href="#" class="fs-xsmall text-bold text-white">About</a>
+                        <a href="#about-section" class="fs-xsmall text-bold text-white">About</a>
                     </li>
                     <li class="flex justify-center align-center">
-                        <a href="#" class="fs-xsmall text-bold text-white">Services</a>
+                        <a href="#services-section" class="fs-xsmall text-bold text-white">Services</a>
                     </li>
                     <li class="flex justify-center align-center">
-                        <a href="#" class="fs-xsmall text-bold text-white">Contact</a>
+                        <a href="#contact-section" class="fs-xsmall text-bold text-white">Contact</a>
                     </li>
                 </ul>
                 <!-- Join Us -->
                 <div class="btn-nav">
-                    <a href="#" class="btn btn-secondary fs-xsmall text-blue text-semi-bold ">Join Us</a>
+                    <a href="#contact-section" class="btn btn-secondary fs-xsmall text-blue text-semi-bold ">Join Us</a>
                 </div>
             </div>
         </nav>
@@ -68,6 +69,7 @@
                                 class="text-blue">UPT</span>KOMP</span>
                         and become expert.
                     </p>
+                    <a href="#contact-section" class="btn btn-primary">Join Us</a>
                 </div>
                 <div class="flex align-center justify-center hero-image">
                     <img src="img/hero-image.svg" alt="Hero Image" width="100%">
@@ -76,7 +78,7 @@
         </article>
         <!-- End Hero Section -->
 
-        <div class="flex align-center justify-center">
+        <div class="flex align-center justify-center divider">
             <img src="img/hero-divider.svg" width="100%">
         </div>
 
@@ -90,16 +92,202 @@
                     <h2 class="text-bold fs-medium">
                         About <span class="text-bold text-blue fs-medium">UPT</span>KOMP
                     </h2>
-                    <p class="fs-small text-tertiary">
-                         <span class="text-bold text-white"><span class="text-bold text-blue">UPT</span>KOMP</span> is an abbreviation of  Unit Pelaksana Teknis Komputer. UPT Komputer is one of the work units at STMIK Widya Pratama Pekalongan.
-                        This unit is responsible for providing information technology infrastructure, both in terms of hardware and software, as well as internet availability. This unit is a support system for all departments / faculties in the university.
+                    <p class="fs-small text-tertiary text-semi-bold">
+                        <span class="text-bold text-white"><span class="text-bold text-blue">UPT</span>KOMP</span> is an
+                        abbreviation of Unit Pelaksana Teknis Komputer. UPT Komputer is one of the work units at STMIK
+                        Widya Pratama Pekalongan.
+                        This unit is responsible for providing information technology infrastructure, both in terms of
+                        hardware and software, as well as internet availability. This unit is a support system for all
+                        departments / faculties in the university.
                     </p>
                 </div>
             </div>
         </article>
         <!-- End About Section -->
+
+        <div class="flex align-center justify-center divider">
+            <img src="img/about-divider.svg" width="100%">
+        </div>
+
+        <!-- Start Services Section -->
+        <article id="services-section" class="bg-gradient services-container">
+            <div class="container flex flex-column align-center justify-between gap-xlarge">
+                <div class="flex align-center justify-center heading">
+                    <h2 class="text-bold fs-large">
+                        Services at <span class="text-blue text-bold fs-large">UPT</span>KOMP
+                    </h2>
+                </div>
+                <!-- Cards -->
+                <div class="flex flex-column align-center justify-between gap-large card-container">
+                    <!-- Card Row -->
+                    <div class="flex flex-row align-center justify-between gap-xlarge card-row">
+                        <!-- Card Item -->
+                        <div class="flex align-center justify-evenly card">
+                            <div class="flex align-center justify-center card-image">
+                                <img src="img/computer-maintenance.svg" alt="Computer Maintenance" width="100%">
+                            </div>
+                            <div class="flex flex-column align-start justify-evenly gap-medium
+                             card-description">
+                                <h3 class="text-bold text-primary fs-medium">Computer Maintenance</h3>
+                                <p class="fs-small text-secondary text-semi-bold">
+                                    We provide computer maintenance services to our labs.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex align-center justify-evenly card">
+                            <div class="flex align-center justify-center card-image">
+                                <img src="img/software-installation.svg" alt="Software Installation" width="100%">
+                            </div>
+                            <div class="flex flex-column align-start justify-evenly gap-medium
+                             card-description">
+                                <h3 class="text-bold text-primary fs-medium">Software Installation</h3>
+                                <p class="fs-small text-secondary text-semi-bold">
+                                    We provide software installation services to our labs, students, & lecturers.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card Item -->
+                    </div>
+                    <!-- Card Row -->
+                    <div class="flex flex-row align-center justify-between gap-xlarge card-row">
+                        <div class="flex align-center justify-evenly card">
+                            <div class="flex align-center justify-center card-image">
+                                <img src="img/interns-mentoring.svg" alt="Interns Mentoring" width="100%">
+                            </div>
+                            <div class="flex flex-column align-start justify-evenly gap-medium card-description">
+                                <h3 class="text-bold text-primary fs-medium">Interns Mentoring</h3>
+                                <p class="fs-small text-secondary text-semi-bold">
+                                    We provide interns mentoring services to our intern employees.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex align-center justify-evenly card">
+                            <div class="flex align-center justify-center card-image">
+                                <img src="img/assistant-lab.svg" alt="Assistant Lab" width="100%">
+                            </div>
+                            <div class="flex flex-column align-start justify-evenly gap-medium card-description">
+                                <h3 class="text-bold text-primary fs-medium">Assistant Lab</h3>
+                                <p class="fs-small text-secondary text-semi-bold">
+                                    We provide assistant lab services to our labs when learn course in the lab.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+        <!-- End Services Section -->
+
+        <div class="flex align-center justify-center divider">
+            <img src="img/contact-divider.svg" width="100%">
+        </div>
+
+        <!-- Start Contact Section -->
+        <article id="contact-section" class="contact-container">
+            <div class="flex align-start justify-between bg-tertiary">
+                <!-- Social Media -->
+                <div class="flex flex-column align-center justify-between gap-medium social-media">
+                    <h2 class="fs-large text-bold">
+                        Our Social Media
+                    </h2>
+                    <div class="flex flex-column align-center justify-between gap-medium social-container">
+                        <div class="flex flex-column align-center justify-center card-social">
+                            <img src="img/banner-yt-uptkomp.png" alt="Youtube UPTKOMP" width="100%">
+                            <div class="flex align-center justify-around gap-small">
+                                <img src="img/icon-youtube.svg" alt="Youtube Icon">
+                                <p class="fs-medium text-bold text-primary">
+                                    UPT Komputer
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-column align-center justify-center card-social">
+                            <img src="img/banner-ig-uptkomp.png" alt="Instagram UPTKOMP" width="100%">
+                            <div class="flex align-center justify-around gap-small">
+                                <img src="img/icon-instagram.svg" alt="Instagram Icon">
+                                <p class="fs-medium text-bold text-primary">
+                                    uptkomputer_
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Join Us Now -->
+                <div class="flex flex-column align-center justify-start gap-medium join-us">
+                    <h2 class="fs-large text-bold">
+                        Join Us Now
+                    </h2>
+                    <form action="https://wa.me/088806923500" method="post"
+                        class="flex flex-column align-center justify-around gap-medium join-us-container">
+                        <input type="text" name="nim" id="nim" class="input" autocomplete="off" required
+                            placeholder="Nomor induk mahasiswa">
+                        <input type="text" name="nama" id="nama" class="input" autocomplete="off" required
+                            placeholder="Nama lengkap">
+                        <input type="text" name="kelas" id="kelas" class="input" autocomplete="off" required
+                            placeholder="Kode kelas">
+                        <input type="number" name="noWA" id="noWA" class="input" autocomplete="off" required
+                            placeholder="No WhatsApp" min="0">
+                        <textarea name="alamat" id="alamat" placeholder="Alamat rumah" class="textarea"
+                            autocomplete="off" required rows="5"></textarea>
+                        <button type="submit" class="btn btn-primary gap-xsmall">
+                            <img src="img/icon-whatsapp.svg" alt="WhatsApp Icon">
+                            Send to WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </article>
+        <!-- End Contact Section -->
+
+        <div class="flex align-center justify-center divider">
+            <img src="img/author-divider.svg" width="100%">
+        </div>
+
+        <!-- Start Author Section -->
+        <aside id="author-section" class="bg-gradient author-container">
+            <div class="container flex flex-column align-center justify-center gap-medium">
+                <h2 class="fs-large text-bold text-center">
+                    About Creator <br>
+                    <span class="fs-large text-bold text-blue">UPT</span>KOMP Landing Page
+                </h2>
+                <div class="flex align-center justify-around gap-xlarge author-container">
+                    <div class="flex align-center justify-center author-card">
+                        <img src="img/Its_Karr.png" alt="Nasyath Faykar" width="100%">
+                    </div>
+                    <div class="flex flex-column align-start justify-around gap-small author-description">
+                        <p class="fs-small text-semi-bold">
+                            Hi 👋, My name is Nasyath Faykar. I’m 19 year old and raised in Pekalongan, Central Java.
+                            I’m a Bachelor Degree student at STMIK Widya Pratama Pekalongan majoring in Information
+                            System. I love pixel art &
+                            create games, but I love Web Development too. You can follow me by social media.
+                        </p>
+                        <h3 class="fs-medium text-bold">
+                            Let’s be friend!
+                        </h3>
+                        <div class="flex align-center justify-evenly gap-small icon-container">
+                            <a href="#" class="rounded-circle">
+                                <img src="img/rounded-facebook.svg" alt="Facebook">
+                            </a>
+                            <a href="#" class="rounded-circle">
+                                <img src="img/rounded-instagram.svg" alt="Instagram">
+                            </a>
+                            <a href="#" class="rounded-circle">
+                                <img src="img/rounded-github.svg" alt="Github">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- End Author Section -->
     </main>
 
+    <footer id="footer" class="bg-gradient">
+        <div class="container flex align-center justify-center">
+            <p class="fs-small text-thin text-center text-tertiary">
+                Made with ❤️ by <a href="https://github.com/faykarr" class="text-bold text-tertiary">Faykar</a>
+        </div>
+    </footer>
     <!-- Javascript -->
     <script src="js/script.js"></script>
 </body>

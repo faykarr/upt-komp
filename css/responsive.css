@@ -17,7 +17,7 @@
 }
 
 /* Custom Responsive Media Queries CSS */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 582px) {
   .container {
     max-width: 412px;
     padding: 10px 45px;
@@ -42,7 +42,7 @@
   }
 
   .btn-nav-active {
-    top: 310% !important;
+    top: 340% !important;
   }
 
   .btn-nav a {
@@ -66,22 +66,62 @@
     min-width: 164px;
   }
 
-  .hero-description p, p > span > span, p > span {
+  .hero-description p,
+  p > span > span,
+  p > span {
     font-size: var(--fs-xxsmall) !important;
   }
 
   .hero-image img {
     min-width: 204px;
-    max-width: 320px
+    max-width: 320px;
   }
   /* Hero Section */
 
   /* About Section */
-  .about-container > div {
-    flex-direction: column;
-    gap: 4rem;
+  .about-description p,
+  p > span > span,
+  p > span {
+    font-size: var(--fs-xxsmall) !important;
+    text-align: center;
+  }
+
+  .about-description {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-image img {
+    min-width: 204px;
+    max-width: 320px;
   }
   /* About Section */
+
+  /* Services Section */
+  .heading > h2 {
+    min-width: 256px;
+  }
+
+  .heading > h2,
+  .heading > h2 > span {
+    font-size: var(--fs-medium) !important;
+    text-align: center;
+  }
+
+  .card {
+    flex-direction: column !important;
+    min-width: 232px !important;
+  }
+
+  .card-description > h3 {
+    font-size: var(--fs-small) !important;
+  }
+
+  .card-description > p {
+    font-size: var(--fs-xxsmall) !important;
+  }
+  /* Services Section */
 }
 
 @media screen and (max-width: 872px) {
@@ -91,6 +131,10 @@
   }
 
   /* Navigation */
+  .nav-section {
+    background: rgba(15, 23, 42, 1);
+  }
+
   .nav-container {
     padding-left: 40px;
   }
@@ -134,7 +178,7 @@
   }
 
   .btn-nav-active {
-    top: 320%;
+    top: 350%;
     background-color: rgba(15, 23, 42, 100%);
   }
   /* Navigation */
@@ -164,5 +208,37 @@
   /* Hero Section */
 
   /* About Section */
+  .about-container > div {
+    flex-direction: column-reverse !important;
+    gap: 1rem;
+    max-width: 512px;
+  }
+
+  .about-image img {
+    min-width: 256px;
+  }
   /* About Section */
+
+  /* Services Section */
+  .card-container {
+    gap: 1rem;
+  }
+
+  .card {
+    flex-direction: row;
+    gap: 1rem;
+    text-align: center;
+    height: auto;
+    min-width: 320px;
+  }
+
+  .card-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .card-description {
+    align-items: center;
+  }
+  /* Services Section */
 }

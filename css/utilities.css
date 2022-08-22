@@ -16,7 +16,6 @@
   --font-tertiary-color: #94a3b8;
 }
 
-
 /* Custom Utilities CSS Desktop First */
 * {
   margin: 0;
@@ -26,6 +25,17 @@
     sans-serif;
   text-decoration: none;
   list-style-type: none;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -90,7 +100,7 @@ body {
 }
 
 .text-thin {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .text-semi-bold {

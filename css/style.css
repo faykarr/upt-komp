@@ -23,6 +23,13 @@
   padding: 20px 180px;
 }
 
+.divider img {
+  user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
 /* ! Navigation Section */
 header {
   position: fixed;
@@ -167,4 +174,64 @@ header {
   max-width: 412px;
   line-height: 28px;
 }
-/* End of About Section */
+/* * End of About Section */
+
+/* ! Services Section */
+.services-container {
+  padding-top: 64px;
+}
+
+.services-container > div {
+  padding-block: 32px;
+}
+
+.card {
+  height: 250px;
+}
+/* * End of Services Section */
+
+/* ! Contact Section */
+.contact-container > div {
+  margin: 150px auto;
+  max-width: 982px;
+  border-radius: 45px;
+  padding: 60px;
+}
+/* * End of Contact Section */
+
+/* ! Author Section */
+
+.author-card {
+  padding: 20px;
+  background: #2e69c2;
+  box-shadow: 13px 17px 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.author-description > p {
+  max-width: 484px;
+  line-height: 23px;
+  font-family: monospace;
+  text-align: justify;
+}
+
+.icon-container > a {
+  transition: all 0.3s ease-in;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.icon-container > a:hover {
+  transform: scale(1.2);
+}
+/* * End of Author Section */
+
+/* ! Footer Section */
+footer {
+  padding-top: 97px;
+  padding-inline: 70px;
+}
+
+footer > div {
+  border-top: 3px solid rgba(14, 35, 84, 0.9);
+}
