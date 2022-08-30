@@ -114,6 +114,10 @@
     min-width: 232px !important;
   }
 
+  .card-social > div > p {
+    font-size: var(--fs-small) !important;
+  }
+
   .card-description > h3 {
     font-size: var(--fs-small) !important;
   }
@@ -122,6 +126,32 @@
     font-size: var(--fs-xxsmall) !important;
   }
   /* Services Section */
+
+  /* Contact Section */
+  .contact-container > div {
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-media > h2,
+  .social-media > h2 > span {
+    font-size: var(--fs-medium) !important;
+    text-align: center;
+  }
+
+  .join-us > h2,
+  .join-us > h2 > span {
+    font-size: var(--fs-medium) !important;
+    text-align: center;
+  }
+
+  .author-heading > h2,
+  .author-heading > h2 > span {
+    font-size: var(--fs-medium) !important;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 872px) {
@@ -241,4 +271,31 @@
     align-items: center;
   }
   /* Services Section */
+
+  /* Contact Section */
+  .contact-container > div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 512px;
+  }
+  /* Contact Section */
+
+  /* Author Section */
+  .author-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .author-description,
+  .author-description > p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer {
+    padding-inline: 0px;
+  }
 }

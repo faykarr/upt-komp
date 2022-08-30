@@ -92,7 +92,8 @@
 }
 
 .input {
-  min-width: 420px;
+  /* min-width: 420px; */
+  width: 100%;
   color: rgb(36, 35, 42);
   font-size: 16px;
   line-height: 20px;
@@ -116,7 +117,8 @@
 }
 
 .textarea {
-  min-width: 420px;
+  /* min-width: 420px; */
+  width: 100%;
   color: rgb(36, 35, 42);
   font-size: 16px;
   line-height: 20px;
