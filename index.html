@@ -20,12 +20,14 @@
         <nav class="nav-section">
             <div class="nav-container flex justify-between align-center">
                 <!-- Logo Brand -->
-                <div class="flex justify-between align-center gap-xsmall brand">
-                    <img src="img/logo-upt.png" alt="Logo UPT Komputer" width="40">
-                    <h3 class="text-bold fs-medium">
-                        <span class="text-blue fs-medium">UPT</span>KOMP
-                    </h3>
-                </div>
+                <a href="index.html" class="text-white">
+                    <div class="flex justify-between align-center gap-xsmall brand">
+                        <img src="img/logo-upt.png" alt="Logo UPT Komputer" width="40">
+                        <h3 class="text-bold fs-medium">
+                            <span class="text-blue fs-medium">UPT</span>KOMP
+                        </h3>
+                    </div>
+                </a>
                 <!-- Hamburger Menu -->
                 <div class="flex flex-column justify-evenly align-center absolute hamburger">
                     <div class="line"></div>
@@ -192,24 +194,28 @@
                         Our Social Media
                     </h2>
                     <div class="flex flex-column align-center justify-between gap-medium social-container">
-                        <div class="flex flex-column align-center justify-center card-social">
-                            <img src="img/banner-yt-uptkomp.png" alt="Youtube UPTKOMP" width="100%">
-                            <div class="flex align-center justify-around gap-small">
-                                <img src="img/icon-youtube.svg" alt="Youtube Icon">
-                                <p class="fs-medium text-bold text-primary">
-                                    UPT Komputer
-                                </p>
+                        <a href="https://www.youtube.com/channel/UCO6r1i12aeMerFmzHxcTM9g">
+                            <div class="flex flex-column align-center justify-center card-social">
+                                <img src="img/banner-yt-uptkomp.png" alt="Youtube UPTKOMP" width="100%">
+                                <div class="flex align-center justify-around gap-small">
+                                    <img src="img/icon-youtube.svg" alt="Youtube Icon">
+                                    <p class="fs-medium text-bold text-primary">
+                                        UPT Komputer
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="flex flex-column align-center justify-center card-social">
-                            <img src="img/banner-ig-uptkomp.png" alt="Instagram UPTKOMP" width="100%">
-                            <div class="flex align-center justify-around gap-small">
-                                <img src="img/icon-instagram.svg" alt="Instagram Icon">
-                                <p class="fs-medium text-bold text-primary">
-                                    uptkomputer_
-                                </p>
+                        </a>
+                        <a href="https://www.instagram.com/uptkomputer_/">
+                            <div class="flex flex-column align-center justify-center card-social">
+                                <img src="img/banner-ig-uptkomp.png" alt="Instagram UPTKOMP" width="100%">
+                                <div class="flex align-center justify-around gap-small">
+                                    <img src="img/icon-instagram.svg" alt="Instagram Icon">
+                                    <p class="fs-medium text-bold text-primary">
+                                        uptkomputer_
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <!-- Join Us Now -->
@@ -217,7 +223,7 @@
                     <h2 class="fs-large text-bold">
                         Join Us Now
                     </h2>
-                    <form action="#" method="post"
+                    <form onsubmit="send_message()" method="post"
                         class="flex flex-column align-center justify-around gap-medium join-us-container">
                         <input type="text" name="nim" id="nim" class="input" autocomplete="off" required
                             placeholder="Nomor induk mahasiswa">
@@ -229,10 +235,10 @@
                             placeholder="No WhatsApp" min="0">
                         <textarea name="alamat" id="alamat" placeholder="Alamat rumah" class="textarea"
                             autocomplete="off" required rows="5"></textarea>
-                        <a href="https://api.whatsapp.com/send?phone=6288806923500" class="btn btn-primary gap-xsmall">
+                        <button type="submit" class="btn btn-primary gap-xsmall">
                             <img src="img/icon-whatsapp.svg" alt="WhatsApp Icon">
                             Send to WhatsApp
-                        </a>
+                        </button>
                     </form>
                 </div>
             </div>
@@ -265,13 +271,13 @@
                             Let’s be friend!
                         </h3>
                         <div class="flex align-center justify-evenly gap-small icon-container">
-                            <a href="#" class="rounded-circle">
+                            <a href="https://www.facebook.com/nasyath.faykar" class="rounded-circle">
                                 <img src="img/rounded-facebook.svg" alt="Facebook">
                             </a>
-                            <a href="#" class="rounded-circle">
+                            <a href="https://www.instagram.com/faykarr_/" class="rounded-circle">
                                 <img src="img/rounded-instagram.svg" alt="Instagram">
                             </a>
-                            <a href="#" class="rounded-circle">
+                            <a href="https://github.com/faykarr" class="rounded-circle">
                                 <img src="img/rounded-github.svg" alt="Github">
                             </a>
                         </div>
